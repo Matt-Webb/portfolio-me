@@ -6,7 +6,9 @@
 body {
   font-family: "Ubuntu", sans-serif;
   font-size: 100%;
-  background: #fff; }
+  background: #fff;
+  overflow: hidden;
+   }
 
 a {
   text-decoration: none;
@@ -28,10 +30,15 @@ p {
   margin: 0 auto 30px;
   padding: 10px 0;
   background: url(../img/bg.jpg) top center no-repeat fixed;
-  background-size: 20%; }
+  background-size: 100%; 
+}
+
   @media screen and (max-width: 1500px) {
-    .header {
-      background-size: auto; } }
+  
+  .header {
+      background-size: auto; 
+    } 
+  }
   .header .h1 {
     margin: 10px 0 20px;
     font-size: 2.5em;

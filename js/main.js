@@ -1,7 +1,7 @@
   $(function(){
 
     $("#typed").typed({
-      strings: ["Welcome to my space on the web!", "Here is where I host my freelance work!", "You can find me on GitHub."],
+      strings: ["Welcome to my space on the web!", "Here is where I host my freelance work!","I am a Developer", "Click below to find me on GitHub."],
       typeSpeed: 30,
       callback: function(){
         shift();

@@ -1,0 +1,27 @@
+﻿<header>
+    <div id="top" class="container">
+      <div class="row">
+        <div class="col-md-12 logo">
+            <div class="content-logo"><a href="#/"><img src="images/logo.jpg" alt="" /></a></div>
+        </div>
+        <nav class="col-md-12">
+          <div class="mini-menu"><i class="fa fa-bars"></i></div>
+          <ul class="menu" auto-active >
+            <li class="cl-effect-11"><a data-hover="HOME" href="#/">Home</a></li>
+            <li class="cl-effect-11"><a data-hover="WORK" href="#/work">Work</a></li>
+            <li class="cl-effect-11"><a data-hover="CHESS" href="#/chess">Chess</a></li>
+            <li class="cl-effect-11"><a data-hover="CONTACT" href="#/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <script>
+      // Mobile menu toggle
+      var mobile_nav = $(".mini-menu");
+      mobile_nav.click(function () {
+          $("#top").find(".menu").toggle(2000);
+      });
+  </script>
+

@@ -1,0 +1,33 @@
+﻿<section id="section4" class="cd-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Chess</h1>
+                <div class="box-content contact">
+
+                    <div id="board" style="width: 400px"></div>
+
+                    <table class="table padded">
+                        <thead>
+                            <tr>
+                                <th ng-repeat="heading in tableHeaders">
+                                    {{ heading }}
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="row in data">
+                                <td><a target="_blank" href="http://www.ecfgrading.org.uk/new/menu.php?PlayerCode={{ row[0] }}&file=player">{{ row[1] }}</a></td>
+                                <td>{{ row[2] }}</td>
+                                <td>{{ row[3] }}</td>
+                                <td>{{ row[4] }}</td>
+                                <td>{{ row[5] }}</td>
+                                <td>{{ row[6] | date }}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- cd-section -->

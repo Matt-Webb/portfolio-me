@@ -1,12 +1,4 @@
 ﻿
-$(function() {
-
-	//var board = ChessBoard('board', 'start');
-
-});
-
-
-
 (function () {
 
     "use strict";
@@ -77,8 +69,6 @@ $(function() {
     });
 
     app.controller('webbChessController', function ($scope) {
-
-    	
 
         $scope.title = "Welcome to the chess section!";
 
